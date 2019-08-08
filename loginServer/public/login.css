@@ -1,0 +1,59 @@
+html{
+    
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+}
+
+
+#leftDiv{
+    flex: 1;
+    padding-top: 150px;
+    background-image: linear-gradient(to bottom right, #606B9B,#B191D4);
+    text-align: center;
+    box-shadow: 5px 0px 100px 3px grey;
+}
+#rightDiv{
+    flex: 1;
+    padding-top: 310px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+#welcome{
+     font-family: 'Raleway', sans-serif;
+     font-size: 5.5vw;
+     color: white;
+     margin-bottom: 20px;
+}
+#customize{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.7vw;
+    color: rgb(116, 196, 169);
+    font-weight: lighter;
+}
+img{
+    width: 4vw;
+}
+#buttom{
+    display: flex;
+    flex-direction: row;
+    background-color: #70C7A9;
+    padding-left: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+#login{
+    margin-left: 10px;
+    font-family: helvetica;
+    font-size: 1.35vw;
+    color: white;
+}
